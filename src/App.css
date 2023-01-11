@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Manjari Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Manjari Thin'), url('Manjari-Thin.woff') format('woff');
+    }
+
+    h1 {
+        font-family: 'Manjari Thin';
+        padding: 25px;
+        color: white;
+        letter-spacing: .2vh;
+    }
