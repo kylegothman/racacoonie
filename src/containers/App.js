@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBar from '../components/SearchBar';
 import Scroll from '../components/Scroll'
+import ErrorBoundary from '../components/ErrorBoundary'
 import { recipes } from '../recipes';
 import './App.css';
 
@@ -39,7 +40,9 @@ class App extends Component {
                 <h1 class='f1'>Racacoonie Cookbook</h1>
                 <SearchBar searchChange={this.onSearchChange}/>
                 <Scroll>
-                    <CardList recipes={filterRecipes}/>  
+                    <ErrorBoundary>
+                        <CardList recipes={filterRecipes}/>  
+                    </ErrorBoundary>
                 </Scroll>
             </div>
         );
