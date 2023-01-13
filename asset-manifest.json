@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/racacoonie/static/css/main.5f29f50b.css",
+    "main.js": "/racacoonie/static/js/main.8a0c585e.js",
+    "static/js/787.b62be1b5.chunk.js": "/racacoonie/static/js/787.b62be1b5.chunk.js",
+    "static/media/Manjari-Thin.woff": "/racacoonie/static/media/Manjari-Thin.a5466d8f2e54f3515c9c.woff",
+    "index.html": "/racacoonie/index.html",
+    "main.5f29f50b.css.map": "/racacoonie/static/css/main.5f29f50b.css.map",
+    "main.8a0c585e.js.map": "/racacoonie/static/js/main.8a0c585e.js.map",
+    "787.b62be1b5.chunk.js.map": "/racacoonie/static/js/787.b62be1b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f29f50b.css",
+    "static/js/main.8a0c585e.js"
+  ]
+}
