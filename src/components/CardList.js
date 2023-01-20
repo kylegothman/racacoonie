@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card';
 
 
-const CardList = ({ recipes }) => {
+function CardList({ recipes }) {
     return (
         <>
             {

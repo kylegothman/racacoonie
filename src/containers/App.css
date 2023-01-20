@@ -8,7 +8,7 @@
     h1 {
         font-family: 'Manjari Thin';
         padding: 25px;
-        color: white;
+        color: rgb(24,78,80);
         letter-spacing: .2vh;
     }
     /* input:focus {

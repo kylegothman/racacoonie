@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const Card = ({ name, icon, category }) => {
+function Card({ name, icon, category }) {
     return (
         <div class='tc dib br3 bg-black-20 pa3 white ma2 grow bw2 shadow-5'>
             <img src={ icon } alt={ name }  />

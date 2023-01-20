@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const SearchBar = ({searchfield, searchChange}) => {
+function SearchBar({searchfield, searchChange}){
     return (
         < div class='pa2'>
             <input 

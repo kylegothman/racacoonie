@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBar from '../components/SearchBar';
-import Scroll from '../components/Scroll'
-import ErrorBoundary from '../components/ErrorBoundary'
+import Scroll from '../components/Scroll';
+import { Logo } from '../components/logo/Logo';
+import ErrorBoundary from '../components/ErrorBoundary';
 import { recipes } from '../recipes';
 import './App.css';
 
@@ -37,6 +38,7 @@ class App extends Component {
         return (
             
             <div class='tc'>
+                <Logo />
                 <h1 class='f1'>Racacoonie Cookbook</h1>
                 <SearchBar searchChange={this.onSearchChange}/>
                 <Scroll>
